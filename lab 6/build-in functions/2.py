@@ -1,0 +1,5 @@
+s = input()
+upp = sum(map(str.isupper, s))
+low = sum(map(str.islower, s))
+print("Uppercase: ", upp)
+print("Lowercase: ", low)
